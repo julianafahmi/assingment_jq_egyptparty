@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+.home{
+    background:  linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)) , url('../images/events-heavenly-header.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+#backToTop{
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: rgb(214, 46, 51);
+    display: none;
+}
+.navBar {
+    
+    list-style-type: none;
+}
+#sideBar{
+    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+#sideBar .navBar{
+    background-color: black;
+    
+}
+#sideBar .openIcon{
+    transform: translateY(500%);
+    cursor: pointer;
+}
+.navBar a{
+    color:white
+}
+.navBar a:hover{
+    color:rgb(214, 46, 51); 
+
+}
+.closebtn{
+    right: 20px;
+    top: 20px;
+}
+.closebtn:hover{
+    color:rgb(214, 46, 51);
+}
+header{
+    padding: 300px;
+}
+h1{
+    font-size: 60px;
+}
+.cardHeader{
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.cardText{
+    background-color: #ccc;
+}
+.inner{
+    display: none;
+}
+.first{
+    display: block;
+}
+#countDown{
+    background:  linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)) , url('../images/invitation-2508607__340.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+    font-size: 50px;
+}
+#countDown .time{
+
+    border: 2px solid white;
+    height: 150px;
+   
+}
+.iconstyle{
+    padding: 8px;
+    border: 2px solid lightgrey;
+    color: grey;
+    transition: all 0.2s;
+
+}
+.iconstyle:hover{
+    background-color:rgba(214, 46, 51,1);
+    color: white;
+}
